@@ -1,0 +1,51 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+.movie-card {
+  background-color: #e28f8f;
+  margin: 50px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.movie-card h2 {
+  font-size: 2rem;
+}
+
+.movie-card a {
+  color: #484545;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.movie-card a:hover {
+  text-decoration: underline;
+}
+
+.movie-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-details iframe {
+  margin-top: 20px;
+}
+
+.back-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #e28f8f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #b39f46;
+}
